@@ -1,4 +1,4 @@
-//This script is supposed to get the local Ip address
+//This script is supposed to connect to a server
 
 File: MyClient.java
 import java.io.*;  
