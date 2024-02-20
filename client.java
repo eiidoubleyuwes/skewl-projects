@@ -1,6 +1,4 @@
 //This script is supposed to connect to a server
-
-File: MyClient.java
 import java.io.*;  
 import java.net.*;  
 public class MyClient {  
