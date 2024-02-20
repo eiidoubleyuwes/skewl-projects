@@ -5,42 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool bruvz</title>
     <link rel="icon" type="image/x-icon" href="images/icons8-done-32.png">
+<style>
+	.login-form {
+		width: 400px;
+		margin: 0 auto;
+}
 
+	.login-form input[type='text'],
+	.login-form input[type='password'] {
+		width: 100%;
+		padding: 10px;
+		margin: 5px 0;
+	}
+
+	.login-form input[type='submit'] {
+		background-color: red;
+		color: white;
+		padding: 10px 20px;
+		margin: 10px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+	}
+	.login-form input[type='submit']:hover {
+		background-color: green;
+	}
+	.login-form img {
+		display: block;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+</style>
 </head>
 <body style = "background-color: black";>
-    <h1 style = "color: red;text-align: centre">Think you can be as cool as us?</h1>
-    <p>Sign in to our website if you've always been as cool.</p>
-    <!-- Impliment login form using js script -->
-    <h3>Enter your login credentials</h3> 
-		<form action=""> 
-			<label for="first"> 
-				Username: 
-			</label> 
-			<input type="text"
-				id="first"
-				name="first"
-				placeholder="Enter your Username" required> 
 
-			<label for="password"> 
-				Password: 
-			</label> 
-			<input type="password"
-				id="password"
-				name="password"
-				placeholder="Enter your Password" required> 
-
-			<div class="wrap"> 
-				<button type="submit"
-						onclick="solve()"> 
-					Submit 
-				</button> 
-			</div> 
-		</form> 
-		<p>Not registered? 
-			<a href="#"
-			style="text-decoration: none;"> 
-				Create an account 
-			</a> 
-		</p>     
+    
+    <form class= "login-form">
+		<h1 style="color: red;">Are you cool?</h1>
+		<p style="color: white;text-align: centre;"> Sign in to our website if you've always been as cool.</p>
+		<h3 style="color: red;">Enter your login credentials</h3>
+		<img src="images/pngtree-vector-avatar-icon-png-image_695765.jpg" Alt="Avatar">
+        <input type="text" placeholder="Username" name= "Username">
+        <input type="password" placeholder="Nwila/password" name= "Password">
+	    <input type="submit" value="Submit">
+		<p style="color: red;text-align: centre">Not registered?
+			<a href="#" style="text-decoration: none;">
+				Create an account
+			</a>
+    </form>
+     
 </body>
+
 </html>
